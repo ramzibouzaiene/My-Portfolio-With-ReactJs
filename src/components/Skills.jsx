@@ -1,7 +1,6 @@
 import React from "react";
 import angular from "../assets/angular.png";
 import css from "../assets/css.png";
-import github from "../assets/github.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import laravel from "../assets/laravel.svg";
@@ -11,7 +10,7 @@ import react from "../assets/react.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full bg-[#102b53] text-gray-300">
+    <div name="skills" className="w-full h-screen bg-[#102b53] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-red-600">
@@ -51,10 +50,6 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={mysql} alt="html" />
             <p className="my-4">MY SQL</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={github} alt="html" />
-            <p className="my-4">GITHUB</p>
           </div>
         </div>
       </div>
